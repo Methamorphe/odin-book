@@ -8,10 +8,18 @@
 - [1. Why Odin?](book/01-why-odin.md)
   - [Exercises](exercises/01-why-odin.md)
   - [Solutions](solutions/01-why-odin.md)
-- 2. Installing the toolchain *(forthcoming)*
-- 3. Your first Odin program *(forthcoming)*
-- 4. Values, variables and constants *(forthcoming)*
-- 5. Primitive and named types *(forthcoming)*
+- [2. Installing Odin](book/02-installing-odin.md)
+  - [Exercises](exercises/02-installing-odin.md)
+  - [Solutions](solutions/02-installing-odin.md)
+- [3. Your first Odin program](book/03-first-program.md)
+  - [Exercises](exercises/03-first-program.md)
+  - [Solutions](solutions/03-first-program.md)
+- [4. Values, variables and constants](book/04-values-variables-constants.md)
+  - [Exercises](exercises/04-values-variables-constants.md)
+  - [Solutions](solutions/04-values-variables-constants.md)
+- [5. Primitive and named types](book/05-primitive-and-named-types.md)
+  - [Exercises](exercises/05-primitive-and-named-types.md)
+  - [Solutions](solutions/05-primitive-and-named-types.md)
 - 6. Procedures and multiple return values *(forthcoming)*
 - 7. Control flow *(forthcoming)*
 - 8. Packages and project organization *(forthcoming)*
