@@ -35,15 +35,27 @@
 - [10. Maps, strings and runes](book/10-maps-strings-runes.md)
   - [Exercises](exercises/10-maps-strings-runes.md)
   - [Solutions](solutions/10-maps-strings-runes.md)
-- 11. Structs, enums and unions *(forthcoming)*
-- 12. Pointers and addressability *(forthcoming)*
-- 13. `defer`, `or_return` and explicit errors *(forthcoming)*
+- [11. Structs, enums and unions](book/11-structs-enums-unions.md)
+  - [Exercises](exercises/11-structs-enums-unions.md)
+  - [Solutions](solutions/11-structs-enums-unions.md)
+- [12. Pointers and addressability](book/12-pointers-addressability.md)
+  - [Exercises](exercises/12-pointers-addressability.md)
+  - [Solutions](solutions/12-pointers-addressability.md)
+- [13. `defer`, cleanup and explicit errors](book/13-defer-explicit-errors.md)
+  - [Exercises](exercises/13-defer-explicit-errors.md)
+  - [Solutions](solutions/13-defer-explicit-errors.md)
 
 ## Part II — Memory and Systems Programming
 
-- 14. The Odin memory model *(forthcoming)*
-- 15. Allocators and `context.allocator` *(forthcoming)*
-- 16. Arenas, pools and temporary memory *(forthcoming)*
+- [14. The Odin memory model](book/14-memory-model.md)
+  - [Exercises](exercises/14-memory-model.md)
+  - [Solutions](solutions/14-memory-model.md)
+- [15. Allocators and `context.allocator`](book/15-allocators-context.md)
+  - [Exercises](exercises/15-allocators-context.md)
+  - [Solutions](solutions/15-allocators-context.md)
+- [16. Arenas, pools and temporary memory](book/16-arenas-pools-temporary-memory.md)
+  - [Exercises](exercises/16-arenas-pools-temporary-memory.md)
+  - [Solutions](solutions/16-arenas-pools-temporary-memory.md)
 - 17. Files, paths and operating-system services *(forthcoming)*
 - 18. Serialization and binary layouts *(forthcoming)*
 - 19. Assertions, diagnostics and logging *(forthcoming)*
