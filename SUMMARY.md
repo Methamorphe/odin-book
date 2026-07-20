@@ -20,11 +20,21 @@
 - [5. Primitive and named types](book/05-primitive-and-named-types.md)
   - [Exercises](exercises/05-primitive-and-named-types.md)
   - [Solutions](solutions/05-primitive-and-named-types.md)
-- 6. Procedures and multiple return values *(forthcoming)*
-- 7. Control flow *(forthcoming)*
-- 8. Packages and project organization *(forthcoming)*
-- 9. Arrays, slices and dynamic arrays *(forthcoming)*
-- 10. Maps, strings and runes *(forthcoming)*
+- [6. Procedures and multiple return values](book/06-procedures.md)
+  - [Exercises](exercises/06-procedures.md)
+  - [Solutions](solutions/06-procedures.md)
+- [7. Control flow](book/07-control-flow.md)
+  - [Exercises](exercises/07-control-flow.md)
+  - [Solutions](solutions/07-control-flow.md)
+- [8. Packages and project organization](book/08-packages.md)
+  - [Exercises](exercises/08-packages.md)
+  - [Solutions](solutions/08-packages.md)
+- [9. Arrays, slices and dynamic arrays](book/09-arrays-slices-dynamic-arrays.md)
+  - [Exercises](exercises/09-arrays-slices-dynamic-arrays.md)
+  - [Solutions](solutions/09-arrays-slices-dynamic-arrays.md)
+- [10. Maps, strings and runes](book/10-maps-strings-runes.md)
+  - [Exercises](exercises/10-maps-strings-runes.md)
+  - [Solutions](solutions/10-maps-strings-runes.md)
 - 11. Structs, enums and unions *(forthcoming)*
 - 12. Pointers and addressability *(forthcoming)*
 - 13. `defer`, `or_return` and explicit errors *(forthcoming)*
