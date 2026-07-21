@@ -6,11 +6,13 @@ on:
       - main
     paths:
       - "examples/**/*.odin"
+      - "projects/**/*.odin"
       - "scripts/ci/**"
       - ".github/workflows/odin-ci.yml"
   pull_request:
     paths:
       - "examples/**/*.odin"
+      - "projects/**/*.odin"
       - "scripts/ci/**"
       - ".github/workflows/odin-ci.yml"
   workflow_dispatch:
@@ -27,7 +29,7 @@ env:
 
 jobs:
   validate-examples:
-    name: Validate Odin examples
+    name: Validate Odin examples and project
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
@@ -47,3 +49,7 @@ jobs:
       - name: Validate all example packages
         shell: bash
         run: bash scripts/ci/check_examples.sh
+
+      - name: Test Threadline engine
+        shell: bash
+        run: odin test projects/engine
