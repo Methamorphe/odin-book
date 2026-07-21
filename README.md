@@ -29,6 +29,9 @@ The main book is complete:
 - separate solutions;
 - standalone Odin examples;
 - the evolving **Threadline Engine** capstone project;
+- a practical [Odin Cookbook](COOKBOOK.md);
+- an opinionated [Odin Project Style Guide](STYLE_GUIDE.md);
+- reproducible data-oriented benchmarks;
 - automated validation through GitHub Actions.
 
 The full navigation is available in [SUMMARY.md](SUMMARY.md).
@@ -38,7 +41,9 @@ The full navigation is available in [SUMMARY.md](SUMMARY.md).
 1. [Preface](book/00-preface.md)
 2. [Chapter 1 — Why Odin?](book/01-why-odin.md)
 3. [Complete table of contents](SUMMARY.md)
-4. [Threadline Engine project](projects/engine/README.md)
+4. [Odin Cookbook](COOKBOOK.md)
+5. [Odin Project Style Guide](STYLE_GUIDE.md)
+6. [Threadline Engine project](projects/engine/README.md)
 
 A practical learning loop is:
 
@@ -46,7 +51,9 @@ A practical learning loop is:
 2. inspect and run its example in `examples/`;
 3. complete the corresponding exercises in `exercises/`;
 4. compare your approach with `solutions/`;
-5. inspect how the same ideas shape `projects/engine/`.
+5. use the Cookbook when implementing a concrete task;
+6. apply the Style Guide to your own packages;
+7. inspect how the same ideas shape `projects/engine/`.
 
 ## Contents
 
@@ -82,6 +89,26 @@ A production-minded engine project covering architecture, the platform layer, re
 - complete exercise index;
 - further reading.
 
+## Practical references
+
+### Odin Cookbook
+
+[COOKBOOK.md](COOKBOOK.md) contains task-oriented recipes covering program structure, arguments, parsing, files, collections, memory, errors, testing, concurrency, data-oriented layouts, binary formats, interoperability, fixed-step simulation, render commands, assets, editor commands, hot reload, and release manifests.
+
+### Odin Project Style Guide
+
+[STYLE_GUIDE.md](STYLE_GUIDE.md) defines the repository conventions for formatting, naming, procedure contracts, ownership, allocators, errors, data layout, package architecture, concurrency, testing, diagnostics, performance, serialization, foreign interfaces, engine subsystems, comments, and code review.
+
+### Benchmarks
+
+The suite in [`benchmarks/`](benchmarks/README.md) provides reproducible comparisons for AoS versus SoA, contiguous versus strided access, generation-checked handles, and temporary-memory strategies.
+
+```bash
+odin run benchmarks -o:speed
+```
+
+Treat benchmark results as machine- and workload-specific evidence, not universal language claims.
+
 ## Threadline Engine
 
 The project in [`projects/engine/`](projects/engine/README.md) is the longitudinal implementation for the book. Its first vertical slice includes an explicit application lifecycle, deterministic frame loop, generational entity handles, dense transform storage, a stable asset registry, renderer command extraction, frame statistics, and invariant tests.
@@ -97,14 +124,17 @@ The [project roadmap](projects/engine/ROADMAP.md) maps each architectural milest
 
 ```text
 .
-├── book/          # Preface, chapters 1–48, and appendices
-├── examples/      # Standalone Odin example packages
-├── exercises/     # Chapter exercises
-├── solutions/     # Exercise solutions and design notes
+├── book/           # Preface, chapters 1–48, and appendices
+├── examples/       # Standalone Odin example packages
+├── exercises/      # Chapter exercises
+├── solutions/      # Exercise solutions and design notes
+├── benchmarks/     # Reproducible performance experiments
 ├── projects/
-│   └── engine/    # Threadline longitudinal capstone project
-├── scripts/ci/    # CI validation scripts
-├── SUMMARY.md     # Complete book navigation
+│   └── engine/     # Threadline longitudinal capstone project
+├── scripts/ci/     # CI validation scripts
+├── COOKBOOK.md     # Practical task-oriented recipes
+├── STYLE_GUIDE.md  # Project conventions and review checklist
+├── SUMMARY.md      # Complete book navigation
 └── README.md
 ```
 
@@ -145,9 +175,9 @@ The book consistently favors:
 
 ## Contributing
 
-Corrections, clearer explanations, additional tests, portability improvements, and verified Odin syntax updates are welcome.
+Corrections, clearer explanations, additional tests, portability improvements, new verified recipes, and Odin syntax updates are welcome.
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. When changing an example or the capstone project, keep the relevant Odin CI checks green.
+Read [CONTRIBUTING.md](CONTRIBUTING.md) and [STYLE_GUIDE.md](STYLE_GUIDE.md) before opening a pull request. When changing an example, benchmark, recipe, or the capstone project, keep the relevant Odin CI checks green.
 
 ## Primary references
 
