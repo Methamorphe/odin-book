@@ -1,0 +1,8 @@
+node root
+node child
+parent child root
+move-local child 2 3
+show-world child
+stats
+verify
+quit

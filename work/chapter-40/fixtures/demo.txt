@@ -1,0 +1,7 @@
+load-module v1
+tick
+reload-module v2
+tick
+module-stats
+verify
+quit

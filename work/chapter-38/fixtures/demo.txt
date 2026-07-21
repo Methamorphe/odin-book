@@ -1,0 +1,7 @@
+play click
+volume 0 0.5
+mix 128
+stop 0
+stats
+verify
+quit

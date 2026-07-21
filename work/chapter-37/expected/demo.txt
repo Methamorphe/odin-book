@@ -1,0 +1,1 @@
+The demo must resolve the child world transform through its parent and finish with verify: OK.

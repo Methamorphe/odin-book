@@ -1,0 +1,1 @@
+The demo must show a valid asset lifecycle, balanced references, one reload, and verify: OK.

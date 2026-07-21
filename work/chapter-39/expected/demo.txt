@@ -1,0 +1,1 @@
+The demo must apply, undo, and redo one edit deterministically, then verify: OK.

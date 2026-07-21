@@ -1,0 +1,7 @@
+select player
+set-position 4 5
+undo
+redo
+stats
+verify
+quit

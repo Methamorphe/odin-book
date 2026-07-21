@@ -1,0 +1,7 @@
+load assets/player.texture
+retain 0:1
+reload 0:1
+release 0:1
+stats
+verify
+quit

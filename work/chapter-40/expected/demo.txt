@@ -1,0 +1,1 @@
+The demo must preserve host state across one successful reload and finish with verify: OK.

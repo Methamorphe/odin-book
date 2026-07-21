@@ -1,0 +1,5 @@
+texture checker 16 16
+material floor checker
+stats
+verify
+quit
