@@ -116,24 +116,54 @@
 
 ## Part V — Graphics and Game Technology
 
-- 34. Window creation and input *(forthcoming)*
-- 35. Rendering fundamentals *(forthcoming)*
-- 36. Textures, meshes and materials *(forthcoming)*
-- 37. Cameras, transforms and scenes *(forthcoming)*
-- 38. Audio and event systems *(forthcoming)*
-- 39. Immediate-mode tools and editor UI *(forthcoming)*
-- 40. Hot reload and plugin boundaries *(forthcoming)*
+- [34. Window creation and input](book/34-window-creation-input.md)
+  - [Exercises](exercises/34-window-creation-input.md)
+  - [Solutions](solutions/34-window-creation-input.md)
+- [35. Rendering fundamentals](book/35-rendering-fundamentals.md)
+  - [Exercises](exercises/35-rendering-fundamentals.md)
+  - [Solutions](solutions/35-rendering-fundamentals.md)
+- [36. Textures, meshes and materials](book/36-textures-meshes-materials.md)
+  - [Exercises](exercises/36-textures-meshes-materials.md)
+  - [Solutions](solutions/36-textures-meshes-materials.md)
+- [37. Cameras, transforms and scenes](book/37-cameras-transforms-scenes.md)
+  - [Exercises](exercises/37-cameras-transforms-scenes.md)
+  - [Solutions](solutions/37-cameras-transforms-scenes.md)
+- [38. Audio and event systems](book/38-audio-event-systems.md)
+  - [Exercises](exercises/38-audio-event-systems.md)
+  - [Solutions](solutions/38-audio-event-systems.md)
+- [39. Immediate-mode tools and editor UI](book/39-immediate-mode-tools-editor-ui.md)
+  - [Exercises](exercises/39-immediate-mode-tools-editor-ui.md)
+  - [Solutions](solutions/39-immediate-mode-tools-editor-ui.md)
+- [40. Hot reload and plugin boundaries](book/40-hot-reload-plugin-boundaries.md)
+  - [Exercises](exercises/40-hot-reload-plugin-boundaries.md)
+  - [Solutions](solutions/40-hot-reload-plugin-boundaries.md)
 
 ## Part VI — Capstone Engine
 
-- 41. Architecture and constraints *(forthcoming)*
-- 42. Platform layer *(forthcoming)*
-- 43. Renderer *(forthcoming)*
-- 44. Asset pipeline *(forthcoming)*
-- 45. Runtime world *(forthcoming)*
-- 46. Editor *(forthcoming)*
-- 47. Profiling and optimization *(forthcoming)*
-- 48. Packaging a small game *(forthcoming)*
+- [41. Architecture and constraints](book/41-architecture-constraints.md)
+  - [Exercises](exercises/41-architecture-constraints.md)
+  - [Solutions](solutions/41-architecture-constraints.md)
+- [42. Platform layer](book/42-platform-layer.md)
+  - [Exercises](exercises/42-platform-layer.md)
+  - [Solutions](solutions/42-platform-layer.md)
+- [43. Renderer](book/43-renderer.md)
+  - [Exercises](exercises/43-renderer.md)
+  - [Solutions](solutions/43-renderer.md)
+- [44. Asset pipeline](book/44-asset-pipeline.md)
+  - [Exercises](exercises/44-asset-pipeline.md)
+  - [Solutions](solutions/44-asset-pipeline.md)
+- [45. Runtime world](book/45-runtime-world.md)
+  - [Exercises](exercises/45-runtime-world.md)
+  - [Solutions](solutions/45-runtime-world.md)
+- [46. Editor](book/46-editor.md)
+  - [Exercises](exercises/46-editor.md)
+  - [Solutions](solutions/46-editor.md)
+- [47. Profiling and optimization](book/47-profiling-optimization.md)
+  - [Exercises](exercises/47-profiling-optimization.md)
+  - [Solutions](solutions/47-profiling-optimization.md)
+- [48. Packaging a small game](book/48-packaging-small-game.md)
+  - [Exercises](exercises/48-packaging-small-game.md)
+  - [Solutions](solutions/48-packaging-small-game.md)
 
 ## Appendices
 
