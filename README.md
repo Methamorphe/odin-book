@@ -28,7 +28,8 @@ The main book is complete:
 - exercises for every chapter;
 - separate solutions;
 - standalone Odin examples;
-- automated example validation through GitHub Actions.
+- the evolving **Threadline Engine** capstone project;
+- automated validation through GitHub Actions.
 
 The full navigation is available in [SUMMARY.md](SUMMARY.md).
 
@@ -37,6 +38,7 @@ The full navigation is available in [SUMMARY.md](SUMMARY.md).
 1. [Preface](book/00-preface.md)
 2. [Chapter 1 — Why Odin?](book/01-why-odin.md)
 3. [Complete table of contents](SUMMARY.md)
+4. [Threadline Engine project](projects/engine/README.md)
 
 A practical learning loop is:
 
@@ -44,7 +46,7 @@ A practical learning loop is:
 2. inspect and run its example in `examples/`;
 3. complete the corresponding exercises in `exercises/`;
 4. compare your approach with `solutions/`;
-5. adapt the design to a small project of your own.
+5. inspect how the same ideas shape `projects/engine/`.
 
 ## Contents
 
@@ -80,6 +82,17 @@ A production-minded engine project covering architecture, the platform layer, re
 - complete exercise index;
 - further reading.
 
+## Threadline Engine
+
+The project in [`projects/engine/`](projects/engine/README.md) is the longitudinal implementation for the book. Its first vertical slice includes an explicit application lifecycle, deterministic frame loop, generational entity handles, dense transform storage, a stable asset registry, renderer command extraction, frame statistics, and invariant tests.
+
+```bash
+odin run projects/engine
+odin test projects/engine
+```
+
+The [project roadmap](projects/engine/ROADMAP.md) maps each architectural milestone to the corresponding book chapters, while [DESIGN.md](projects/engine/DESIGN.md) records the invariants that future iterations must preserve.
+
 ## Repository structure
 
 ```text
@@ -88,6 +101,8 @@ A production-minded engine project covering architecture, the platform layer, re
 ├── examples/      # Standalone Odin example packages
 ├── exercises/     # Chapter exercises
 ├── solutions/     # Exercise solutions and design notes
+├── projects/
+│   └── engine/    # Threadline longitudinal capstone project
 ├── scripts/ci/    # CI validation scripts
 ├── SUMMARY.md     # Complete book navigation
 └── README.md
@@ -113,7 +128,7 @@ Packages containing `@(test)` procedures can be tested with:
 odin test examples/20-testing-reproducible-builds
 ```
 
-The repository CI discovers every Odin package under `examples/`, validates regular packages with `odin check`, and executes test-only packages with `odin test`.
+The repository CI validates every example package and runs the Threadline Engine test suite.
 
 ## Design principles
 
@@ -132,7 +147,7 @@ The book consistently favors:
 
 Corrections, clearer explanations, additional tests, portability improvements, and verified Odin syntax updates are welcome.
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. When changing an example, keep it standalone and ensure the Odin CI remains green.
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. When changing an example or the capstone project, keep the relevant Odin CI checks green.
 
 ## Primary references
 
