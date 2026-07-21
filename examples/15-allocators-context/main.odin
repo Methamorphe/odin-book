@@ -23,6 +23,6 @@ main :: proc() {
     buffer := init_buffer(context.allocator)
     defer destroy_buffer(&buffer)
 
-    append(&buffer.data, 1, 2, 3) or_else panic("could not append to buffer")
+    _ = append(&buffer.data, 1, 2, 3) or_else panic("could not append to buffer")
     fmt.println(buffer.data[:])
 }
