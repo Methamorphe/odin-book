@@ -1,0 +1,1 @@
+The demo must update only the entity matching Position+Velocity, report query counts, and verify: OK.

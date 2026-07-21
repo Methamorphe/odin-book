@@ -1,0 +1,1 @@
+The demo must show deterministic stage counts, filtered rows, and verify: OK.

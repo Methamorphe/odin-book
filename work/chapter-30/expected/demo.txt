@@ -1,0 +1,1 @@
+The demo must reuse slot 0 with a newer generation, reject the stale handle, and verify: OK.

@@ -1,0 +1,5 @@
+inspect Player
+fields Player
+stats
+verify
+quit

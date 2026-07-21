@@ -1,0 +1,5 @@
+load fixtures/people.csv
+filter role developer
+stats
+verify
+quit

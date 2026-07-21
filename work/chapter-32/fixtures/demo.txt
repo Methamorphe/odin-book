@@ -1,0 +1,7 @@
+enqueue input read-input
+enqueue simulation move-world
+enqueue render draw-world
+frame
+stats
+verify
+quit

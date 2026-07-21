@@ -1,0 +1,7 @@
+create texture
+get 0 1
+destroy 0 1
+create mesh
+stats
+verify
+quit

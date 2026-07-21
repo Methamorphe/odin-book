@@ -1,0 +1,7 @@
+layout aos
+bench 10000 50
+layout soa
+bench 10000 50
+stats
+verify
+quit

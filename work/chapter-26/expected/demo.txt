@@ -1,0 +1,1 @@
+The demo must print stable Player field metadata, matching counters, and verify: OK.

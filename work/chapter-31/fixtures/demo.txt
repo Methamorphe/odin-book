@@ -1,0 +1,8 @@
+spawn player
+add 0 position
+add 0 velocity
+step
+inspect 0
+stats
+verify
+quit

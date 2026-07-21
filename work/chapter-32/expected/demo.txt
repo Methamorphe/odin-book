@@ -1,0 +1,1 @@
+The demo must execute input before simulation before render, expose phase statistics, and verify: OK.

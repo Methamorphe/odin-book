@@ -1,0 +1,1 @@
+The demo must execute scalar and SIMD paths including a one-element tail, print comparable checksums, and verify: OK.
