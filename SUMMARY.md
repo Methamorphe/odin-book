@@ -2,6 +2,7 @@
 
 - [Home](README.md)
 - [Preface](book/00-preface.md)
+- [Interactive Exercise Workbook — 240 Labs](exercises/INTERACTIVE_WORKBOOK.md)
 - [Odin Cookbook](COOKBOOK.md)
 - [Odin Project Style Guide](STYLE_GUIDE.md)
 
@@ -177,6 +178,7 @@
 
 ## Practical resources
 
+- [Interactive Exercise Workbook](exercises/INTERACTIVE_WORKBOOK.md)
 - [Odin Cookbook](COOKBOOK.md)
 - [Odin Project Style Guide](STYLE_GUIDE.md)
 - [Threadline Engine](projects/engine/README.md)
