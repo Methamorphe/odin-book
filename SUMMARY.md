@@ -167,8 +167,8 @@
 
 ## Appendices
 
-- A. Odin syntax reference *(forthcoming)*
-- B. Standard-library field guide *(forthcoming)*
-- C. C, C++, Go and Rust translation notes *(forthcoming)*
-- D. Exercise index *(forthcoming)*
-- E. Further reading *(forthcoming)*
+- [A. Odin syntax reference](book/appendix-a-odin-syntax-reference.md)
+- [B. Standard-library field guide](book/appendix-b-standard-library-field-guide.md)
+- [C. C, C++, Go and Rust translation notes](book/appendix-c-translation-notes.md)
+- [D. Exercise index](book/appendix-d-exercise-index.md)
+- [E. Further reading](book/appendix-e-further-reading.md)
