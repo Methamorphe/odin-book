@@ -1,6 +1,6 @@
 # Chapter 48 — Packaging a Small Game
 
-[← Chapter 47: Profiling and Optimization](47-profiling-optimization.md) · [Exercises](../exercises/48-packaging-small-game.md)
+[← Chapter 47: Profiling and Optimization](47-profiling-optimization.md) · [Exercises](../exercises/48-packaging-small-game.md) · [Appendix A: Odin Syntax Reference →](appendix-a-odin-syntax-reference.md)
 
 The final chapter turns the capstone from a development checkout into a product another person can run. Packaging is part of architecture: paths, assets, configuration, licenses, crash reports, and update policy all affect runtime design.
 
