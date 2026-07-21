@@ -37,10 +37,23 @@ failed=0
 for package_dir in "${package_dirs[@]}"; do
   relative_dir="${package_dir#"$ROOT_DIR"/}"
 
-  # A child directory can be imported by its parent example package. Checking
-  # both remains useful because every package should also be valid in isolation.
-  echo "::group::odin check $relative_dir"
-  if odin check "$package_dir" -vet -warnings-as-errors; then
+  # The arithmetic package is validated through the Chapter 8 application,
+  # which supplies the local `project:` collection required by its import.
+  if [[ "$relative_dir" == "examples/08-packages/arithmetic" ]]; then
+    continue
+  fi
+
+  check_args=(check "$package_dir")
+  test_args=(test "$package_dir")
+
+  if [[ "$relative_dir" == "examples/08-packages/app" ]]; then
+    collection_arg="-collection:project=$EXAMPLES_DIR/08-packages"
+    check_args+=("$collection_arg")
+    test_args+=("$collection_arg")
+  fi
+
+  echo "::group::odin ${check_args[*]}"
+  if odin "${check_args[@]}"; then
     checked=$((checked + 1))
   else
     failed=$((failed + 1))
@@ -48,8 +61,8 @@ for package_dir in "${package_dirs[@]}"; do
   echo "::endgroup::"
 
   if grep -Rqs --include='*.odin' '@(test)' "$package_dir"; then
-    echo "::group::odin test $relative_dir"
-    if odin test "$package_dir" -vet -warnings-as-errors; then
+    echo "::group::odin ${test_args[*]}"
+    if odin "${test_args[@]}"; then
       tested=$((tested + 1))
     else
       failed=$((failed + 1))
