@@ -56,9 +56,15 @@
 - [16. Arenas, pools and temporary memory](book/16-arenas-pools-temporary-memory.md)
   - [Exercises](exercises/16-arenas-pools-temporary-memory.md)
   - [Solutions](solutions/16-arenas-pools-temporary-memory.md)
-- 17. Files, paths and operating-system services *(forthcoming)*
-- 18. Serialization and binary layouts *(forthcoming)*
-- 19. Assertions, diagnostics and logging *(forthcoming)*
+- [17. Files, paths and operating-system services](book/17-files-paths-os-services.md)
+  - [Exercises](exercises/17-files-paths-os-services.md)
+  - [Solutions](solutions/17-files-paths-os-services.md)
+- [18. Serialization and binary layouts](book/18-serialization-binary-layouts.md)
+  - [Exercises](exercises/18-serialization-binary-layouts.md)
+  - [Solutions](solutions/18-serialization-binary-layouts.md)
+- [19. Assertions, diagnostics and logging](book/19-assertions-diagnostics-logging.md)
+  - [Exercises](exercises/19-assertions-diagnostics-logging.md)
+  - [Solutions](solutions/19-assertions-diagnostics-logging.md)
 
 ## Part III — Professional Odin
 
