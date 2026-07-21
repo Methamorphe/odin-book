@@ -1,0 +1,1 @@
+Using a deterministic stub when C is unavailable, the demo must perform one call, report a balanced boundary, and verify: OK.

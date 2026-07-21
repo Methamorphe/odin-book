@@ -1,0 +1,5 @@
+run 1024 10
+profile
+stats
+verify
+quit

@@ -1,0 +1,5 @@
+inspect fixtures/tiny-image.fixture
+library-error-demo
+stats
+verify
+quit

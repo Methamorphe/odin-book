@@ -1,0 +1,1 @@
+The demo must emit one info and one warning event, report two total events, and verify: OK.

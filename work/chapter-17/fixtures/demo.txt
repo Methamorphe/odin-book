@@ -1,0 +1,5 @@
+list fixtures/tree
+filter .txt
+stats
+verify
+quit

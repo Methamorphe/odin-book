@@ -1,0 +1,6 @@
+deposit 100
+withdraw 30
+withdraw 100
+stats
+verify
+quit

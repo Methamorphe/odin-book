@@ -1,0 +1,7 @@
+set name Odin
+set score 42
+write fixtures/save.bin
+read fixtures/save.bin
+stats
+verify
+quit

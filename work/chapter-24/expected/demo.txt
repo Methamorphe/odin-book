@@ -1,0 +1,1 @@
+The demo must complete eight jobs with two joined workers, expose queue statistics, and finish with verify: OK.

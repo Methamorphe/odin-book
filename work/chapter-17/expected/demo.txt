@@ -1,0 +1,1 @@
+The demo must print sorted .txt metadata, deterministic byte totals, and verify: OK.

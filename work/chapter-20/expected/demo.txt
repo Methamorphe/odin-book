@@ -1,0 +1,1 @@
+The demo must finish at balance 70, reject the overdraft, report two accepted and one rejected transaction, and verify: OK.

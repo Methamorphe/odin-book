@@ -1,0 +1,4 @@
+call Odin
+boundary-stats
+verify
+quit
