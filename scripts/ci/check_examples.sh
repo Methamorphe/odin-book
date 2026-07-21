@@ -37,32 +37,37 @@ failed=0
 for package_dir in "${package_dirs[@]}"; do
   relative_dir="${package_dir#"$ROOT_DIR"/}"
 
-  # The arithmetic package is validated through the Chapter 8 application,
-  # which supplies the local `project:` collection required by its import.
+  # The Chapter 8 arithmetic package is validated through the app package that
+  # imports it using the local project collection.
   if [[ "$relative_dir" == "examples/08-packages/arithmetic" ]]; then
     continue
   fi
 
-  check_args=(check "$package_dir")
-  test_args=(test "$package_dir")
-
+  extra_args=()
   if [[ "$relative_dir" == "examples/08-packages/app" ]]; then
-    collection_arg="-collection:project=$EXAMPLES_DIR/08-packages"
-    check_args+=("$collection_arg")
-    test_args+=("$collection_arg")
+    extra_args+=("-collection:project=$EXAMPLES_DIR/08-packages")
   fi
 
-  echo "::group::odin ${check_args[*]}"
-  if odin "${check_args[@]}"; then
-    checked=$((checked + 1))
-  else
-    failed=$((failed + 1))
-  fi
-  echo "::endgroup::"
-
+  has_tests=false
   if grep -Rqs --include='*.odin' '@(test)' "$package_dir"; then
-    echo "::group::odin ${test_args[*]}"
-    if odin "${test_args[@]}"; then
+    has_tests=true
+  fi
+
+  # A test-only package does not need a main entry point. `odin test` performs
+  # both compilation and execution, so a separate `odin check` would reject it.
+  if [[ "$has_tests" == false ]]; then
+    echo "::group::odin check $relative_dir"
+    if odin check "$package_dir" "${extra_args[@]}"; then
+      checked=$((checked + 1))
+    else
+      failed=$((failed + 1))
+    fi
+    echo "::endgroup::"
+  fi
+
+  if [[ "$has_tests" == true ]]; then
+    echo "::group::odin test $relative_dir"
+    if odin test "$package_dir" "${extra_args[@]}"; then
       tested=$((tested + 1))
     else
       failed=$((failed + 1))
