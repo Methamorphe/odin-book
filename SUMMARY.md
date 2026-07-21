@@ -2,6 +2,8 @@
 
 - [Home](README.md)
 - [Preface](book/00-preface.md)
+- [Odin Cookbook](COOKBOOK.md)
+- [Odin Project Style Guide](STYLE_GUIDE.md)
 
 ## Part I — Foundations
 
@@ -172,3 +174,10 @@
 - [C. C, C++, Go and Rust translation notes](book/appendix-c-translation-notes.md)
 - [D. Exercise index](book/appendix-d-exercise-index.md)
 - [E. Further reading](book/appendix-e-further-reading.md)
+
+## Practical resources
+
+- [Odin Cookbook](COOKBOOK.md)
+- [Odin Project Style Guide](STYLE_GUIDE.md)
+- [Threadline Engine](projects/engine/README.md)
+- [Benchmark suite](benchmarks/README.md)
