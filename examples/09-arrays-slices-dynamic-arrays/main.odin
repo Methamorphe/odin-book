@@ -18,7 +18,7 @@ main :: proc() {
     defer delete(numbers)
 
     for value in fixed {
-        append(&numbers, value * 10) or_else panic("could not grow dynamic array")
+        _ = append(&numbers, value * 10) or_else panic("could not grow dynamic array")
     }
     fmt.println("dynamic sum:", sum(numbers[:]))
 }
