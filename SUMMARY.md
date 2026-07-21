@@ -68,14 +68,30 @@
 
 ## Part III — Professional Odin
 
-- 20. Testing and reproducible builds *(forthcoming)*
-- 21. Debugging and profiling *(forthcoming)*
-- 22. C interoperability *(forthcoming)*
-- 23. Foreign libraries and bindings *(forthcoming)*
-- 24. Threads, atomics and synchronization *(forthcoming)*
-- 25. SIMD and numerical code *(forthcoming)*
-- 26. Reflection and compile-time features *(forthcoming)*
-- 27. API design in Odin *(forthcoming)*
+- [20. Testing and reproducible builds](book/20-testing-reproducible-builds.md)
+  - [Exercises](exercises/20-testing-reproducible-builds.md)
+  - [Solutions](solutions/20-testing-reproducible-builds.md)
+- [21. Debugging and profiling](book/21-debugging-profiling.md)
+  - [Exercises](exercises/21-debugging-profiling.md)
+  - [Solutions](solutions/21-debugging-profiling.md)
+- [22. C interoperability](book/22-c-interoperability.md)
+  - [Exercises](exercises/22-c-interoperability.md)
+  - [Solutions](solutions/22-c-interoperability.md)
+- [23. Foreign libraries and bindings](book/23-foreign-libraries-bindings.md)
+  - [Exercises](exercises/23-foreign-libraries-bindings.md)
+  - [Solutions](solutions/23-foreign-libraries-bindings.md)
+- [24. Threads, atomics and synchronization](book/24-threads-atomics-synchronization.md)
+  - [Exercises](exercises/24-threads-atomics-synchronization.md)
+  - [Solutions](solutions/24-threads-atomics-synchronization.md)
+- [25. SIMD and numerical code](book/25-simd-numerical-code.md)
+  - [Exercises](exercises/25-simd-numerical-code.md)
+  - [Solutions](solutions/25-simd-numerical-code.md)
+- [26. Reflection and compile-time features](book/26-reflection-compile-time.md)
+  - [Exercises](exercises/26-reflection-compile-time.md)
+  - [Solutions](solutions/26-reflection-compile-time.md)
+- [27. API design in Odin](book/27-api-design.md)
+  - [Exercises](exercises/27-api-design.md)
+  - [Solutions](solutions/27-api-design.md)
 
 ## Part IV — Data-Oriented Design
 
