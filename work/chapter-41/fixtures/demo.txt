@@ -1,0 +1,7 @@
+subsystem platform
+subsystem renderer
+requires renderer platform
+budget renderer memory-mb 256
+stats
+verify
+quit

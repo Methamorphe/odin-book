@@ -1,0 +1,6 @@
+platform-init
+frame
+platform-stats
+verify
+platform-shutdown
+quit

@@ -1,0 +1,6 @@
+profile-demo
+compare baseline
+budget frame-ms 16.6
+profile-stats
+verify
+quit

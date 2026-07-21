@@ -1,0 +1,1 @@
+The demo must apply, undo, and redo a position edit while preserving valid selection/history state.

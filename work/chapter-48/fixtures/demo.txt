@@ -1,0 +1,6 @@
+manifest fixtures/package.manifest
+build-package fixtures/dist
+inspect-package fixtures/dist
+package-stats
+verify
+quit

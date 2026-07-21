@@ -1,0 +1,1 @@
+The demo must create an acyclic platform→renderer architecture, report one dependency, and verify: OK.

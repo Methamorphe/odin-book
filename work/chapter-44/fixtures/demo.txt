@@ -1,0 +1,6 @@
+import fixtures/player.source
+build player
+build player
+asset-stats
+verify
+quit

@@ -1,0 +1,7 @@
+spawn player
+add-motion player 1 0
+step 3
+inspect player
+world-stats
+verify
+quit
