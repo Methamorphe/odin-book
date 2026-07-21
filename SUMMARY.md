@@ -95,12 +95,24 @@
 
 ## Part IV — Data-Oriented Design
 
-- 28. Thinking in data transformations *(forthcoming)*
-- 29. Cache-aware layouts *(forthcoming)*
-- 30. Handles, generations and object pools *(forthcoming)*
-- 31. Entity-component systems *(forthcoming)*
-- 32. Job systems and frame pipelines *(forthcoming)*
-- 33. Asset registries and resource lifetime *(forthcoming)*
+- [28. Thinking in data transformations](book/28-thinking-in-data-transformations.md)
+  - [Exercises](exercises/28-thinking-in-data-transformations.md)
+  - [Solutions](solutions/28-thinking-in-data-transformations.md)
+- [29. Cache-aware layouts](book/29-cache-aware-layouts.md)
+  - [Exercises](exercises/29-cache-aware-layouts.md)
+  - [Solutions](solutions/29-cache-aware-layouts.md)
+- [30. Handles, generations and object pools](book/30-handles-generations-object-pools.md)
+  - [Exercises](exercises/30-handles-generations-object-pools.md)
+  - [Solutions](solutions/30-handles-generations-object-pools.md)
+- [31. Entity-component systems](book/31-entity-component-systems.md)
+  - [Exercises](exercises/31-entity-component-systems.md)
+  - [Solutions](solutions/31-entity-component-systems.md)
+- [32. Job systems and frame pipelines](book/32-job-systems-frame-pipelines.md)
+  - [Exercises](exercises/32-job-systems-frame-pipelines.md)
+  - [Solutions](solutions/32-job-systems-frame-pipelines.md)
+- [33. Asset registries and resource lifetime](book/33-asset-registries-resource-lifetime.md)
+  - [Exercises](exercises/33-asset-registries-resource-lifetime.md)
+  - [Solutions](solutions/33-asset-registries-resource-lifetime.md)
 
 ## Part V — Graphics and Game Technology
 
