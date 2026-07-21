@@ -51,15 +51,15 @@ destroy :: proc(pool: ^Pool, handle: Handle) -> bool {
 
 main :: proc() {
     pool: Pool
-    first, ok := create(&pool, 42)
-    assert(ok)
+    first, first_created := create(&pool, 42)
+    assert(first_created)
     value, found := get(&pool, first)
     assert(found)
     fmt.println("first value:", value^)
 
     assert(destroy(&pool, first))
-    second, ok := create(&pool, 99)
-    assert(ok)
+    second, second_created := create(&pool, 99)
+    assert(second_created)
 
     _, stale_found := get(&pool, first)
     current, current_found := get(&pool, second)
