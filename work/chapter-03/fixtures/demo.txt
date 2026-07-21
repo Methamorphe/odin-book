@@ -1,0 +1,6 @@
+greet Johann
+style loud
+greet Odin
+stats
+verify
+quit

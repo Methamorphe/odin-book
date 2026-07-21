@@ -1,0 +1,1 @@
+With the fixed demo secret, the transcript must produce deterministic feedback, counters, and verify: OK.

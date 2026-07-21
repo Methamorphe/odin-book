@@ -1,0 +1,6 @@
+guess 10
+hint
+guess 42
+stats
+verify
+quit

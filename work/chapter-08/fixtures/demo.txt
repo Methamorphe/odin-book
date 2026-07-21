@@ -1,0 +1,6 @@
+calc add 2 3
+calc div 8 2
+package-info
+stats
+verify
+quit

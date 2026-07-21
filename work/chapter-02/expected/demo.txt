@@ -1,0 +1,1 @@
+The demo must print deterministic PASS/FAIL rows, explain the compiler check, report totals, and finish with verify: OK.

@@ -1,0 +1,1 @@
+The demo must accept all three typed values, show -5 as temperature, report one value per kind, and verify: OK.

@@ -1,0 +1,7 @@
+record distance 42.5
+record duration 3.2
+record temperature -5
+show temperature
+stats
+verify
+quit

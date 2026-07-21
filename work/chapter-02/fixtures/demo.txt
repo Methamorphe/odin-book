@@ -1,0 +1,5 @@
+check
+explain compiler
+stats
+verify
+quit

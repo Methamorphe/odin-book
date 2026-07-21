@@ -1,0 +1,6 @@
+precision 2
+convert 0 c-to-f
+convert 10 km-to-mi
+stats
+verify
+quit
