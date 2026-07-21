@@ -1,0 +1,46 @@
+name: Odin CI
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "examples/**/*.odin"
+      - "scripts/ci/**"
+      - ".github/workflows/odin-ci.yml"
+  pull_request:
+    paths:
+      - "examples/**/*.odin"
+      - "scripts/ci/**"
+      - ".github/workflows/odin-ci.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: odin-ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  ODIN_RELEASE: dev-2026-07a
+
+jobs:
+  validate-examples:
+    name: Validate examples with Odin ${{ env.ODIN_RELEASE }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Install Odin
+        uses: laytan/setup-odin@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          release: ${{ env.ODIN_RELEASE }}
+
+      - name: Validate all example packages
+        shell: bash
+        run: bash scripts/ci/check_examples.sh
