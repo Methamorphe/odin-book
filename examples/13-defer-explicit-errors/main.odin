@@ -14,12 +14,16 @@ release :: proc(resource: Resource) {
 }
 
 main :: proc() {
-    first, ok := acquire("first")
-    if !ok { return }
+    first, first_ok := acquire("first")
+    if !first_ok {
+        return
+    }
     defer release(first)
 
-    second, ok := acquire("second")
-    if !ok { return }
+    second, second_ok := acquire("second")
+    if !second_ok {
+        return
+    }
     defer release(second)
 
     fmt.println("using resources")
