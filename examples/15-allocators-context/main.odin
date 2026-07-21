@@ -1,9 +1,7 @@
 package main
 
-import (
-    "core:fmt"
-    "core:mem"
-)
+import "core:fmt"
+import "core:mem"
 
 Buffer :: struct {
     allocator: mem.Allocator,
@@ -13,7 +11,7 @@ Buffer :: struct {
 init_buffer :: proc(allocator: mem.Allocator) -> Buffer {
     result: Buffer
     result.allocator = allocator
-    make(&result.data, 0, 16, allocator)
+    result.data = make([dynamic]u8, 0, 16, allocator) or_else panic("could not allocate buffer")
     return result
 }
 
@@ -25,6 +23,6 @@ main :: proc() {
     buffer := init_buffer(context.allocator)
     defer destroy_buffer(&buffer)
 
-    append(&buffer.data, 1, 2, 3)
+    append(&buffer.data, 1, 2, 3) or_else panic("could not append to buffer")
     fmt.println(buffer.data[:])
 }
