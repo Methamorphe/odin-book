@@ -1,0 +1,1 @@
+The demo must merge Odin/odin, count café twice, preserve the emoji token policy, and finish with verify: OK.

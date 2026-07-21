@@ -1,0 +1,6 @@
+allocate texture
+borrow texture
+release texture
+stats
+verify
+quit

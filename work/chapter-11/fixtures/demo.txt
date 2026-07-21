@@ -1,0 +1,6 @@
+create sword weapon
+create heal potion
+use heal
+stats
+verify
+quit

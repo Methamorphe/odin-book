@@ -1,0 +1,7 @@
+begin-frame
+alloc 128
+alloc 256
+end-frame
+stats
+verify
+quit

@@ -1,0 +1,5 @@
+copy fixtures/source.txt fixtures/output.txt
+status
+stats
+verify
+quit

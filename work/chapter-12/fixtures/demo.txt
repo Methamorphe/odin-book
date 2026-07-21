@@ -1,0 +1,6 @@
+move 4 5
+scale 2
+show
+stats
+verify
+quit

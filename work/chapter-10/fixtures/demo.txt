@@ -1,0 +1,5 @@
+analyze Odin odin café café 🚀
+top 3
+stats
+verify
+quit

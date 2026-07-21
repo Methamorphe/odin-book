@@ -1,0 +1,1 @@
+The implementation must apply and document its release-while-borrowed policy, report lifetime totals, and finish with verify: OK.

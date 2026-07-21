@@ -1,0 +1,1 @@
+The demo must create two typed items, consume the potion once, report kind totals, and finish with verify: OK.

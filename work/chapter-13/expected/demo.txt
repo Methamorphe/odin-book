@@ -1,0 +1,1 @@
+Using a test filesystem adapter, the demo must copy deterministic bytes, report cleanup, and finish with verify: OK.

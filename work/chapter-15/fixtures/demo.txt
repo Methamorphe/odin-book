@@ -1,0 +1,6 @@
+allocator tracking
+append Hello
+append Odin
+stats
+verify
+quit

@@ -1,0 +1,7 @@
+add Johann 120
+add Odin 180
+list
+average
+stats
+verify
+quit

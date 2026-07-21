@@ -1,0 +1,1 @@
+The demo must report 384 peak scratch bytes, one reset, zero current scratch bytes, and verify: OK.
