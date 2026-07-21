@@ -1,0 +1,5 @@
+The exact formatting is yours, but the session must:
+1. accept two evaluations;
+2. rank editor ahead of invoicing for the supplied constraints;
+3. report two accepted evaluations;
+4. finish with verify: OK.

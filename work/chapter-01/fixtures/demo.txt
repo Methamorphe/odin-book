@@ -1,0 +1,6 @@
+evaluate editor 16 512 yes
+evaluate invoicing 250 1024 no
+compare editor invoicing
+stats
+verify
+quit
