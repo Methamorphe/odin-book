@@ -8,9 +8,9 @@ MAX_FILE_SIZE :: 64 * 1024
 main :: proc() {
     path := "settings.txt"
 
-    data, ok := os.read_entire_file(path)
-    if !ok {
-        fmt.eprintf("could not read %q\n", path)
+    data, err := os.read_entire_file(path, context.allocator)
+    if err != nil {
+        fmt.eprintf("could not read %q: %v\n", path, err)
         return
     }
     defer delete(data)
